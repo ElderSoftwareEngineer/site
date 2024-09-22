@@ -9,6 +9,7 @@ export default function TermosDeUso() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
+        
         <h1>Termos de Uso</h1>
         <p>1. Aceitação dos termos: Ao adquirir os nossos produtos ou serviços, você concorda com os termos e condições aqui estabelecidos. </p>
         <br />
