@@ -1,0 +1,91 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .main {
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  .contactSection {
+    margin: 2rem 0;
+    text-align: center;
+  }
+  
+  .contactForm {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .contactForm input {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .contactForm button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+/* Exemplo de estilos para o rodapé */
+.footer {
+  width: 100%;
+  padding: 2rem 0;
+  /* background-color: #f1f1f1; */
+}
+
+.contactInfo {
+  text-align: center;
+}
+
+.socialLinks a {
+  margin: 0 0.5rem;
+}
+
+.footerBottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.policyLinks a {
+  margin-left: 1rem;
+}
+
+.descriptionContainer {
+  max-width: 800px; /* Limita a largura máxima */
+  margin: 0 auto; /* Centraliza o conteúdo */
+  padding: 0 1rem; /* Adiciona espaçamento interno */
+}
+
+.description {
+  font-size: 1.2rem; /* Ajusta o tamanho da fonte */
+  line-height: 1.6; /* Melhora o espaçamento entre linhas */
+  text-align: center; /* Centraliza o texto */
+}
+
+/* Estilos para o Cabeçalho */
+.header {
+  width: 100%;
+  padding: 1rem 0;
+  background-color: #fff; /* Ajuste conforme necessário */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #eaeaea; /* Linha separadora opcional */
+}
+
+.logo {
+  max-width: 200px; /* Ajuste o tamanho máximo da logo */
+  height: auto;
+}
+
+
+
+  
